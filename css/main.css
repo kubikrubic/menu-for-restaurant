@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #313b73;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-right: 460px;
+}
+#top-meals {
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: absolute;
+}
+#bottom-meals {
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: absolute;
+  margin-top: 320px;
+}
+
+.first-meal {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
+.second-meal {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+}
+
+.third-meal {
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-bottom: 0%;
+}
+
+
+.button {
+  margin-top: 12px;
+  align-items: center;
+  transition-duration: 0.7s;
+  box-shadow: 0px 0px 20px;
+  font-size: 16px;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  font-weight: 700;
+  border: 0;
+  position: relative;
+}
+
+
+.add {
+  margin-right: 10px;
+  background: #02ab56;
+  color: #313b73;
+}
+.add:hover {
+  color: #02ab56;
+  background: #313b73;
+  transition-duration: 0.5s;
+  border: 2px solid #02ab56;
+}
+
+.remove {
+  background: #ff4545;
+  color: #313b73;
+}
+.remove:hover {
+  color: #ff4545;
+  background: #313b73;
+  transition-duration: 0.5s;
+  border: 2px solid #ff4545;
+}
+.card-of-meal {
+  border-radius: 15px;
+  display: inline-block;
+  overflow: hidden;
+  transition-duration: 10s;
+  transition: 10s;
+}
+
+.img {
+  transition: 1s;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0px 0px 19px;
+}
+.img:hover {
+
+  transition: 1s;
+  transform: scale(112%);
+  transition-duration: 0.7s;
+}
